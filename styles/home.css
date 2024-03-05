@@ -106,6 +106,8 @@ section#produtos h2 {
 /* Estilos para o scroll de produtos */
 .scroll-produtos {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .scroll-produtos a {
@@ -182,7 +184,11 @@ section#contato h2 {
     color: #333;
     margin-bottom: 20px;
 }
-
+section#contato p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
 form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -232,6 +238,7 @@ section#informacoes h2 {
 }
 .info-conteudo{
     display:flex;
+    justify-content: space-between ;
 }
 
 .info-item {
@@ -255,6 +262,7 @@ section#informacoes h2 {
 footer {
     background-color: var(--preto);
     color: var(--fonte);
+    opacity: 0.1;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -271,7 +279,7 @@ footer {
 .hamburguer div {
     width: 30px;
     height: 3px;
-    background-color: var(--preto);
+    background-color: black;
     margin: 6px 0;
     transition: 0.4s;
 }
