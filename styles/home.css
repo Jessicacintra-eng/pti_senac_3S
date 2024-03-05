@@ -1,0 +1,312 @@
+/* Estilos para o cabeçalho */
+.cabecalho-logo {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+}
+
+header {
+    background-color: var(--preto);
+    color: var(--fonte);
+    padding: 10px;
+}
+
+/* Estilos para o logotipo */
+.logo {
+    width: 120px;
+    font-family: "Ojuju", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    width: 60px;
+    margin-right: 10px; 
+}
+
+/* Estilos para a navegação */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: var(--fonte);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; 
+}
+
+.navbar li a:hover {
+    color: var(--botao); 
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    background-color: var(--preto);
+    color: var(--fonte);
+}
+
+h2 {
+    color: var(--fonte);
+}
+
+section#produtos {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+section#produtos h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto {
+    width: 30%;
+    margin: 10px;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px; /* Adiciona borda arredondada à imagem */
+}
+
+.produto h3 {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.produto p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o scroll de produtos */
+.scroll-produtos {
+    margin-top: 20px;
+}
+
+.scroll-produtos a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+.scroll-produtos a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+section#sobre {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+section#sobre h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+section#sobre p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+/* Estilos para a seção de Vantagens e Benefícios */
+section#vantagens {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+section#vantagens h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.vantagem {
+    margin-bottom: 20px;
+}
+
+.vantagem h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.vantagem p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5;
+}
+
+
+/* Formulário de Contato */
+/* Estilos para o formulário de contato */
+section#contato {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+section#contato h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+/* Estilos para a seção de Informações de Contato */
+section#informacoes {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+section#informacoes h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.info-conteudo{
+    display:flex;
+}
+
+.info-item {
+    margin-bottom: 20px;
+}
+
+.info-item h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: var(--preto);
+    color: var(--fonte);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Adicione essas regras para o ícone de hambúrguer */
+.hamburguer {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburguer div {
+    width: 30px;
+    height: 3px;
+    background-color: var(--preto);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Estilos para a navegação */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: var(--fonte);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: var(--botao);
+}
+.menu-toggle {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+
+
+
