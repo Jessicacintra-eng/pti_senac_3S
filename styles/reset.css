@@ -1,0 +1,27 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+#root {
+    --button-color: #FFD700; /* Amarelo para destaque */
+    --text-color: #4E3629; /* Marrom escuro para texto */
+    --background-color: #F8F5F1; /* Bege claro para fundo */
+}
+
+/* Header */
+#header {
+    width: 100%;
+}
+
+

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>Sour Lovers</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <link rel="icon" type="image/x-icon" href="glass.ico">
+    <link rel="stylesheet" type="text/css" href="./styles/home.css">
+    <link rel="stylesheet" type="text/css" href="./styles/mediaquery.css">
+    <link rel="stylesheet" type="text/css" href="./styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body id="root">
+    <header class="cabecalho">
+        <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <div class="cabecalho-logo">
+                <img class="img-logo" src="glass.ico" alt="um copo de cerveja">
+                <h1 class="logo">SOUR LOVERS</h1>
+            </div>
+            <label for="menu-toggle" class="hamburguer">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
+            <ul class="navbar">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#vantagens">Vantagens</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#informacoes">Informações</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- Seção: Sobre a Cervejaria -->
+    <section id="sobre">
+        <h2>Sobre a Cervejaria</h2>
+        <p>Bem-vindo à Cervejaria Artesanal, onde a paixão pela cerveja encontra a arte da produção!</p>
+
+        <p>Nosso compromisso é oferecer aos nossos clientes uma experiência única por meio de cervejas artesanais
+            cuidadosamente elaboradas. Desde a seleção dos melhores ingredientes até o processo de produção artesanal,
+            cada gole reflete nosso compromisso com a qualidade e a autenticidade.</p>
+
+        <p>Com uma tradição que remonta a 1993, somos guiados por valores que colocam a excelência no
+            centro de tudo o que fazemos. Seja você um entusiasta de cervejas especiais ou um apreciador ocasional,
+            convidamos você a explorar nosso universo cervejeiro.</p>
+    </section>
+
+
+    <!-- Seção: Produtos/Serviços Oferecidos -->
+    <section id="produtos">
+        <h2>Produtos/Serviços Oferecidos</h2>
+
+        <div class="produtos-container">
+            <div class="produto">
+                <img src="./assets/img/imagem_produto_1.jpg" alt="Cerveja Aromática">
+                <h3>Cerveja Aromática</h3>
+                <p>Cerveja especial com aromas únicos, proporcionando uma experiência sensorial inigualável.</p>
+            </div>
+        
+            <div class="produto">
+                <img src="./assets/img/imagem_produto_2.jpg" alt="Cerveja Frutada">
+                <h3>Cerveja Frutada</h3>
+                <p>Deliciosa cerveja com sabores frutados que exploram uma variedade de frutas frescas e tropicais.</p>
+            </div>
+        
+            <div class="produto">
+                <img src="./assets/img/imagem_produto_3.jpg" alt="Cerveja Encorpada">
+                <h3>Cerveja Encorpada</h3>
+                <p>Cerveja encorpada e robusta, ideal para quem aprecia uma experiência mais intensa e marcante.</p>
+            </div>
+        </div>
+        
+
+        <!-- Scroll de Produtos -->
+        <div class="scroll-produtos">
+            <a href="#" class="anterior">❮ Anterior</a>
+            <a href="#" class="proximo">Próximo ❯</a>
+        </div>
+    </section>
+
+
+    <!-- Seção: Vantagens e Benefícios -->
+    <section id="vantagens">
+        <h2>Vantagens e Benefícios</h2>
+
+        <div class="vantagem">
+            <h3>Qualidade Artesanal</h3>
+            <p>Nossas cervejas são cuidadosamente produzidas de forma artesanal, garantindo qualidade superior em cada
+                gole.</p>
+        </div>
+
+        <div class="vantagem">
+            <h3>Sabores Únicos</h3>
+            <p>Explore uma variedade de sabores únicos que destacam a diversidade e a criatividade da nossa produção
+                cervejeira.</p>
+        </div>
+
+        <div class="vantagem">
+            <h3>Experiência Autêntica</h3>
+            <p>Proporcione a si mesmo uma experiência autêntica, mergulhando nos aromas e sabores que só uma cervejaria
+                artesanal pode oferecer.</p>
+        </div>
+
+    </section>
+
+
+    <!-- Seção: Chamada para Contato -->
+    <section id="contato">
+        <h2>Chamada para Contato</h2>
+        <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- Seção: Informações Adicionais -->
+    <section id="informacoes">
+        <h2>Informações Adicionais</h2>
+        <div class="info-conteudo">
+            <div class="info-item">
+                <h3>Horário de Funcionamento</h3>
+                <p>Segunda a sexta: 17:00 - 23:00</p>
+                <p>Sábado e domingo: 12:00 - 20:00</p>
+            </div>
+    
+            <div class="info-item">
+                <h3>Localização</h3>
+                <p>Rua da Cerveja, 123</p>
+                <p>Cidade Cervejeira</p>
+                <p>CEP: 12345-678</p>
+            </div>
+    
+            <div class="info-item">
+                <h3>Formas de Contato</h3>
+                <p>Email: info@cervejariaartesanal.com</p>
+                <p>Telefone: (55) 5555-5555</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Jessica Cintra. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
