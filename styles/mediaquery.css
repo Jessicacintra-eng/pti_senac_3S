@@ -1,0 +1,33 @@
+/* Adicione uma classe específica para o menu responsivo */
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+ 
+    .navbar.active {
+        display: flex;
+    }
+
+    .hamburguer {
+        display: flex;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    /* Toggle a animação do ícone de hambúrguer */
+    .hamburguer.active div:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburguer.active div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburguer.active div:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
