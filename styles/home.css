@@ -7,8 +7,8 @@
 }
 
 header {
-    background-color: var(--preto);
-    color: var(--fonte);
+    background-color: var(--background-color);
+    color: var(--text-color);
     padding: 10px;
 }
 
@@ -44,25 +44,25 @@ nav {
 }
 
 .navbar li a {
-    color: var(--fonte);
+    color: var(--text-color);
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s ease; 
 }
 
 .navbar li a:hover {
-    color: var(--botao); 
+    color: var( --button-color); 
 }
 
 /* Seções */
 section {
     padding: 20px;
-    background-color: var(--preto);
-    color: var(--fonte);
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 h2 {
-    color: var(--fonte);
+    color: var(--text-color);
 }
 
 section#produtos {
@@ -88,7 +88,7 @@ section#produtos h2 {
 
 .produto img {
     width: 100%;
-    border-radius: 8px; /* Adiciona borda arredondada à imagem */
+    border-radius: 8px; 
 }
 
 .produto h3 {
@@ -260,8 +260,8 @@ section#informacoes h2 {
 
 /* Rodapé */
 footer {
-    background-color: var(--preto);
-    color: var(--fonte);
+    background-color: var(--background-color);
+    color: var(--text-color);
     opacity: 0.1;
     text-align: center;
     padding: 10px;
@@ -300,14 +300,14 @@ footer {
 }
 
 .navbar li a {
-    color: var(--fonte);
+    color: var(--text-color);
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s ease;
 }
 
 .navbar li a:hover {
-    color: var(--botao);
+    color: var( --button-color);
 }
 .menu-toggle {
     position: absolute;
